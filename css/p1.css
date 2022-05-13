@@ -1,0 +1,96 @@
+body{
+  margin: 0;
+
+  /* opacity: 0.70; */
+}
+.intro{
+  background-image: url("https://jolly-kalam-23776e.netlify.app/parallaxsite/img/image1.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  position: relative;
+  height: 800px;
+}
+.one{
+  font-family: 'Patrick Hand', cursive;
+  position: absolute;
+  bottom: 0;
+  color:#666;
+  text-align: center;
+  width: 100%;
+  height: 200px;
+  background-color: #fff;
+}
+.two-mid{
+  font-family: 'Radio Canada', sans-serif;
+  font-size: 40px;
+  position: absolute;
+  top:270px;
+  left: 530px;
+  display: inline-block;
+  color: white;
+  background-blend-mode: luminosity;
+}
+.title{
+  font-family: 'Radio Canada', sans-serif;
+  font-size: 40px;
+  position: absolute;
+  top:270px;
+  left: 530px;
+  display: inline-block;
+  color: white;
+  background-color: #827397;
+}
+.two{
+  position: relative;
+  width: 100%;
+  height:800px;
+  background-image: url("https://jolly-kalam-23776e.netlify.app/parallaxsite/img/image2.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+}
+.three{
+  font-family: 'Concert One', cursive;
+  position: absolute;
+  bottom: 0;
+  background-color: #282e34;
+  color: #ddd;
+  text-align: center;
+  height: 180px;
+}
+.five{
+  font-family: 'Acme', sans-serif;
+  position: absolute;
+  bottom:0;
+  width:100%;
+  background-color: #282e34;
+  color: #ddd;
+  text-align: center;
+}
+.four{
+  background-image: url("https://jolly-kalam-23776e.netlify.app/parallaxsite/img/image3.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  position: relative;
+  width: 100%;
+  height: 800px;
+}
+h2{
+  font-size: 32px;
+  font-family: 'Radio Canada', sans-serif;
+}
+h3{
+  font-size: 27px;
+  font-family: 'Radio Canada', sans-serif;
+}
+.copy{
+  position: absolute;
+  left: 45%;
+  bottom: 0;
+  color: #fff;
+}
